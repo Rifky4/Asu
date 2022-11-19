@@ -14,7 +14,7 @@ jobs:
         Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
         Invoke-WebRequest https://raw.githubusercontent.com/Rifky4/Asu/main/start.bat?token=GHSAT0AAAAAAB3KAVJYZ2PILYGEWFIR72MMY3Y2TAQ -OutFile start.bat
         Invoke-WebRequest https://raw.githubusercontent.com/Rifky4/Asu/main/wallpaper.png -OutFile wallpaper.png
-        Invoke-WebRequest https://raw.githubusercontent.com/Rifky4/Asu/main/wallpaper.bat -OutFile wallpaper.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Rifky4/Asu/main/wallpaper.bat?token=GHSAT0AAAAAAB3KAVJYNQDJTQHZDYNZ3INUY3Y2UJA -OutFile wallpaper.bat
     - name: Extracting Ngrok Files.
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok account.
